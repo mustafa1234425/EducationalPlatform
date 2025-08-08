@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "EducationalPlatform.API.Controllers.AdminController",
+    "Method": "Login",
+    "RelativePath": "api/Admin/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "EducationalPlatform.Application.DTOs.AdminLogin.AdminLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EducationalPlatform.API.Controllers.CoursesController",
     "Method": "Create",
     "RelativePath": "api/Courses",

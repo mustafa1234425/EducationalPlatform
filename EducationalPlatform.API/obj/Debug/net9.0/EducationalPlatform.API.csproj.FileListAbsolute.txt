@@ -177,3 +177,5 @@ E:\Web Development\EducationalPlatform\EducationalPlatform.API\bin\Debug\net9.0\
 E:\Web Development\EducationalPlatform\EducationalPlatform.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\Web Development\EducationalPlatform\EducationalPlatform.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 E:\Web Development\EducationalPlatform\EducationalPlatform.API\obj\Debug\net9.0\EducationalPlatform.API.sourcelink.json
+E:\Web Development\EducationalPlatform\EducationalPlatform.API\bin\Debug\net9.0\BCrypt.Net-Next.dll
+E:\Web Development\EducationalPlatform\EducationalPlatform.API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
