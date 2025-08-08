@@ -1,5 +1,6 @@
 ﻿using EducationalPlatform.Application.DTOs.Book;
 using EducationalPlatform.Application.Features.Books.Commands;
+using EducationalPlatform.Application.Features.Books.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,6 +28,14 @@ namespace EducationalPlatform.API.Controllers
             
             return Ok(new { success = true, id });
         }
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var books = await _mediator.Send(new GetAllBooksWithCategoryQuery());
+
+            return Ok(books);
+        }
+
     }
 
 }

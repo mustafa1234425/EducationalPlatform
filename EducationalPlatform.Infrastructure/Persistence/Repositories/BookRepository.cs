@@ -1,11 +1,9 @@
-﻿using EducationalPlatform.Application.Interfaces;
+﻿using EducationalPlatform.Application.DTOs.Book;
+using EducationalPlatform.Application.Interfaces;
 using EducationalPlatform.Domain.Entities;
 using EducationalPlatform.Infrastructure.Persistence.Context;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace EducationalPlatform.Infrastructure.Persistence.Repositories
 {
@@ -24,6 +22,25 @@ namespace EducationalPlatform.Infrastructure.Persistence.Repositories
             await _context.Books.AddAsync(book); 
             await _context.SaveChangesAsync();  
         }
+        public async Task<List<GetBookWithCategoryDto>> GetAllBooksWithCategoryAsync()
+        {
+            
+            return await _context.Books
+                .Include(b => b.Category) 
+                .Select(b => new GetBookWithCategoryDto
+                {
+                    Id = b.Id,
+                    Title = b.Title,
+                    Description = b.Description,
+                    PdfUrl = b.PdfUrl,
+                    ImageUrl = b.ImageUrl,
+                    CategoryId = b.CategoryId,
+                    CategoryName = b.Category.Name
+                })
+                .ToListAsync();
+        }
+
     }
+
 
 }
