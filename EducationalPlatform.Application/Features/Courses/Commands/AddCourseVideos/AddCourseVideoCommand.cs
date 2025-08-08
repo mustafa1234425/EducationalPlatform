@@ -2,7 +2,7 @@
 using MediatR;
 
 
-namespace EducationalPlatform.Application.Features.Courses.Commands.CreateCourse
+namespace EducationalPlatform.Application.Features.Courses.Commands.AddCourseVideos
 {
     
     public class AddCourseVideoCommand : IRequest<int>

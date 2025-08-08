@@ -7,4 +7,5 @@
     public string Level { get; set; }
     public string CategoryName { get; set; }
     public DateTime CreatedDate { get; set; }
+    public string VideoUrl { get; set; }
 }

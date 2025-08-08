@@ -35,6 +35,38 @@ namespace EducationalPlatform.API.Controllers
 
             return Ok(books);
         }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var book = await _mediator.Send(new GetBookByIdWithCategoryQuery(id));
+
+            if (book == null)
+                return NotFound();
+
+            return Ok(book);
+        }
+        [HttpPut]
+        public async Task<IActionResult> Update([FromBody] UpdateBookDto bookDto)
+        {
+            var result = await _mediator.Send(new UpdateBookCommand(bookDto));
+
+            if (!result)
+                return NotFound();
+
+            return NoContent();
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var result = await _mediator.Send(new DeleteBookCommand(id));
+
+            if (!result)
+                return NotFound();
+
+            return NoContent();
+        }
+
+
 
     }
 

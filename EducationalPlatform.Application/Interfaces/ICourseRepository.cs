@@ -6,6 +6,10 @@ namespace EducationalPlatform.Application.Interfaces
     {
         Task<List<Course>> GetAllCoursesWithCategoryAsync();
         Task<List<CourseVideo>> GetVideosByCourseIdAsync(int courseId);
+        Task<Course> GetByIdAsync(int id);
+        Task UpdateAsync(Course course);
+        Task DeleteAsync(Course course);
+
     }
 
 

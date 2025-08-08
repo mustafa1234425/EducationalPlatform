@@ -4,7 +4,7 @@ using EducationalPlatform.Domain.Entities;
 using MediatR;
 
 
-namespace EducationalPlatform.Application.Features.Courses.Commands.CreateCourse
+namespace EducationalPlatform.Application.Features.Courses.Commands.AddCourseVideos
 {
     public class AddCourseVideoCommandHandler : IRequestHandler<AddCourseVideoCommand, int>
     {
