@@ -24,5 +24,42 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EducationalPlatform.API.Controllers.CoursesController",
+    "Method": "AddVideoToCourse",
+    "RelativePath": "api/Courses/{courseId}/videos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "EducationalPlatform.Application.DTOs.Course.AddCourseVideoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EducationalPlatform.API.Controllers.CoursesController",
+    "Method": "GetVideosByCourseId",
+    "RelativePath": "api/Courses/{courseId}/videos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using EducationalPlatform.Application.Features.Courses.Commands.CreateCourse;
+using EducationalPlatform.Application.DTOs.Course;
 using EducationalPlatform.Application.Interfaces;
 using MediatR;
 
