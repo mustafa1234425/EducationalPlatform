@@ -15,3 +15,4 @@ E:\Web Development\EducationalPlatform\EducationalPlatform.Application\obj\Debug
 E:\Web Development\EducationalPlatform\EducationalPlatform.Application\obj\Debug\net9.0\EducationalPlatform.Application.pdb
 E:\Web Development\EducationalPlatform\EducationalPlatform.Application\obj\Debug\net9.0\EducationalPlatform.Application.genruntimeconfig.cache
 E:\Web Development\EducationalPlatform\EducationalPlatform.Application\obj\Debug\net9.0\ref\EducationalPlatform.Application.dll
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\obj\Debug\net9.0\EducationalPlatform.Application.sourcelink.json

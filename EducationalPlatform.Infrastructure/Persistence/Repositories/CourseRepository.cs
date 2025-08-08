@@ -16,6 +16,14 @@ namespace EducationalPlatform.Infrastructure.Persistence.Repositories
                                  .Include(c => c.Category)
                                  .ToListAsync();
         }
+        public async Task<List<CourseVideo>> GetVideosByCourseIdAsync(int courseId)
+        {
+           
+            return await _context.CourseVideos
+                .Where(v => v.CourseId == courseId)
+                .OrderBy(v => v.Order)
+                .ToListAsync();
+        }
 
     }
 }

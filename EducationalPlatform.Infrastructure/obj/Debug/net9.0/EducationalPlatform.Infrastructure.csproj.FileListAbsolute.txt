@@ -17,3 +17,4 @@ E:\Web Development\EducationalPlatform\EducationalPlatform.Infrastructure\obj\De
 E:\Web Development\EducationalPlatform\EducationalPlatform.Infrastructure\obj\Debug\net9.0\EducationalPlatform.Infrastructure.pdb
 E:\Web Development\EducationalPlatform\EducationalPlatform.Infrastructure\obj\Debug\net9.0\EducationalPlatform.Infrastructure.genruntimeconfig.cache
 E:\Web Development\EducationalPlatform\EducationalPlatform.Infrastructure\obj\Debug\net9.0\ref\EducationalPlatform.Infrastructure.dll
+E:\Web Development\EducationalPlatform\EducationalPlatform.Infrastructure\obj\Debug\net9.0\EducationalPlatform.Infrastructure.sourcelink.json
