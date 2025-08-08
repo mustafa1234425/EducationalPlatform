@@ -1,0 +1,17 @@
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\bin\Debug\net9.0\EducationalPlatform.Application.deps.json
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\bin\Debug\net9.0\EducationalPlatform.Application.runtimeconfig.json
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\bin\Debug\net9.0\EducationalPlatform.Application.dll
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\bin\Debug\net9.0\EducationalPlatform.Application.pdb
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\bin\Debug\net9.0\EducationalPlatform.Domain.dll
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\bin\Debug\net9.0\EducationalPlatform.Domain.pdb
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\obj\Debug\net9.0\EducationalPlatform.Application.csproj.AssemblyReference.cache
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\obj\Debug\net9.0\EducationalPlatform.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\obj\Debug\net9.0\EducationalPlatform.Application.AssemblyInfoInputs.cache
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\obj\Debug\net9.0\EducationalPlatform.Application.AssemblyInfo.cs
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\obj\Debug\net9.0\EducationalPlatform.Application.csproj.CoreCompileInputs.cache
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\obj\Debug\net9.0\Educatio.AE01B944.Up2Date
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\obj\Debug\net9.0\EducationalPlatform.Application.dll
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\obj\Debug\net9.0\refint\EducationalPlatform.Application.dll
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\obj\Debug\net9.0\EducationalPlatform.Application.pdb
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\obj\Debug\net9.0\EducationalPlatform.Application.genruntimeconfig.cache
+E:\Web Development\EducationalPlatform\EducationalPlatform.Application\obj\Debug\net9.0\ref\EducationalPlatform.Application.dll

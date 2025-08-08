@@ -1,0 +1,14 @@
+E:\Web Development\EducationalPlatform\EducationalPlatform.Domain\bin\Debug\net9.0\EducationalPlatform.Domain.deps.json
+E:\Web Development\EducationalPlatform\EducationalPlatform.Domain\bin\Debug\net9.0\EducationalPlatform.Domain.runtimeconfig.json
+E:\Web Development\EducationalPlatform\EducationalPlatform.Domain\bin\Debug\net9.0\EducationalPlatform.Domain.dll
+E:\Web Development\EducationalPlatform\EducationalPlatform.Domain\bin\Debug\net9.0\EducationalPlatform.Domain.pdb
+E:\Web Development\EducationalPlatform\EducationalPlatform.Domain\obj\Debug\net9.0\EducationalPlatform.Domain.csproj.AssemblyReference.cache
+E:\Web Development\EducationalPlatform\EducationalPlatform.Domain\obj\Debug\net9.0\EducationalPlatform.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Web Development\EducationalPlatform\EducationalPlatform.Domain\obj\Debug\net9.0\EducationalPlatform.Domain.AssemblyInfoInputs.cache
+E:\Web Development\EducationalPlatform\EducationalPlatform.Domain\obj\Debug\net9.0\EducationalPlatform.Domain.AssemblyInfo.cs
+E:\Web Development\EducationalPlatform\EducationalPlatform.Domain\obj\Debug\net9.0\EducationalPlatform.Domain.csproj.CoreCompileInputs.cache
+E:\Web Development\EducationalPlatform\EducationalPlatform.Domain\obj\Debug\net9.0\EducationalPlatform.Domain.dll
+E:\Web Development\EducationalPlatform\EducationalPlatform.Domain\obj\Debug\net9.0\refint\EducationalPlatform.Domain.dll
+E:\Web Development\EducationalPlatform\EducationalPlatform.Domain\obj\Debug\net9.0\EducationalPlatform.Domain.pdb
+E:\Web Development\EducationalPlatform\EducationalPlatform.Domain\obj\Debug\net9.0\EducationalPlatform.Domain.genruntimeconfig.cache
+E:\Web Development\EducationalPlatform\EducationalPlatform.Domain\obj\Debug\net9.0\ref\EducationalPlatform.Domain.dll
