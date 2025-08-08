@@ -18,6 +18,7 @@ namespace EducationalPlatform.Infrastructure.DependencyInjection
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<ICourseRepository, CourseRepository>();
             services.AddScoped<ICourseRepository, CourseRepository>();
+            services.AddScoped<IBookRepository, BookRepository>();
 
 
             return services;
