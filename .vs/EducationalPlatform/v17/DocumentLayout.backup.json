@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "E:\\Web Development\\EducationalPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2042808-9C77-47C7-A585-929F0AA2B5F5}|EducationalPlatform.API\\EducationalPlatform.API.csproj|e:\\web development\\educationalplatform\\educationalplatform.api\\controllers\\coursevideoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2042808-9C77-47C7-A585-929F0AA2B5F5}|EducationalPlatform.API\\EducationalPlatform.API.csproj|solutionrelative:educationalplatform.api\\controllers\\coursevideoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2042808-9C77-47C7-A585-929F0AA2B5F5}|EducationalPlatform.API\\EducationalPlatform.API.csproj|e:\\web development\\educationalplatform\\educationalplatform.api\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2042808-9C77-47C7-A585-929F0AA2B5F5}|EducationalPlatform.API\\EducationalPlatform.API.csproj|solutionrelative:educationalplatform.api\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{120C3D23-E43D-4E87-926E-44D79419C5F1}|EducationalPlatform.Infrastructure\\EducationalPlatform.Infrastructure.csproj|e:\\web development\\educationalplatform\\educationalplatform.infrastructure\\persistence\\repositories\\coursevideorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{120C3D23-E43D-4E87-926E-44D79419C5F1}|EducationalPlatform.Infrastructure\\EducationalPlatform.Infrastructure.csproj|solutionrelative:educationalplatform.infrastructure\\persistence\\repositories\\coursevideorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{120C3D23-E43D-4E87-926E-44D79419C5F1}|EducationalPlatform.Infrastructure\\EducationalPlatform.Infrastructure.csproj|e:\\web development\\educationalplatform\\educationalplatform.infrastructure\\persistence\\repositories\\articlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120C3D23-E43D-4E87-926E-44D79419C5F1}|EducationalPlatform.Infrastructure\\EducationalPlatform.Infrastructure.csproj|solutionrelative:educationalplatform.infrastructure\\persistence\\repositories\\articlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E72572D2-87A0-4242-AD2E-E484DD6C35DB}|EducationalPlatform.Application\\EducationalPlatform.Application.csproj|e:\\web development\\educationalplatform\\educationalplatform.application\\interfaces\\icoursevideorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E72572D2-87A0-4242-AD2E-E484DD6C35DB}|EducationalPlatform.Application\\EducationalPlatform.Application.csproj|solutionrelative:educationalplatform.application\\interfaces\\icoursevideorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E257BF2-EE49-404E-963F-1A797FFA1B92}|EducationalPlatform.Domain\\EducationalPlatform.Domain.csproj|e:\\web development\\educationalplatform\\educationalplatform.domain\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E257BF2-EE49-404E-963F-1A797FFA1B92}|EducationalPlatform.Domain\\EducationalPlatform.Domain.csproj|solutionrelative:educationalplatform.domain\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72572D2-87A0-4242-AD2E-E484DD6C35DB}|EducationalPlatform.Application\\EducationalPlatform.Application.csproj|e:\\web development\\educationalplatform\\educationalplatform.application\\dtos\\article\\articledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72572D2-87A0-4242-AD2E-E484DD6C35DB}|EducationalPlatform.Application\\EducationalPlatform.Application.csproj|solutionrelative:educationalplatform.application\\dtos\\article\\articledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72572D2-87A0-4242-AD2E-E484DD6C35DB}|EducationalPlatform.Application\\EducationalPlatform.Application.csproj|e:\\web development\\educationalplatform\\educationalplatform.application\\dtos\\article\\createarticledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72572D2-87A0-4242-AD2E-E484DD6C35DB}|EducationalPlatform.Application\\EducationalPlatform.Application.csproj|solutionrelative:educationalplatform.application\\dtos\\article\\createarticledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72572D2-87A0-4242-AD2E-E484DD6C35DB}|EducationalPlatform.Application\\EducationalPlatform.Application.csproj|e:\\web development\\educationalplatform\\educationalplatform.application\\features\\articles\\commands\\createarticlecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72572D2-87A0-4242-AD2E-E484DD6C35DB}|EducationalPlatform.Application\\EducationalPlatform.Application.csproj|solutionrelative:educationalplatform.application\\features\\articles\\commands\\createarticlecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72572D2-87A0-4242-AD2E-E484DD6C35DB}|EducationalPlatform.Application\\EducationalPlatform.Application.csproj|e:\\web development\\educationalplatform\\educationalplatform.application\\features\\articles\\queries\\getallarticlesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72572D2-87A0-4242-AD2E-E484DD6C35DB}|EducationalPlatform.Application\\EducationalPlatform.Application.csproj|solutionrelative:educationalplatform.application\\features\\articles\\queries\\getallarticlesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,40 +55,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CourseVideosController.cs",
-              "DocumentMoniker": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.API\\Controllers\\CourseVideosController.cs",
-              "RelativeDocumentMoniker": "EducationalPlatform.API\\Controllers\\CourseVideosController.cs",
-              "ToolTip": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.API\\Controllers\\CourseVideosController.cs",
-              "RelativeToolTip": "EducationalPlatform.API\\Controllers\\CourseVideosController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
+              "Title": "ArticlesController.cs",
+              "DocumentMoniker": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.API\\Controllers\\ArticlesController.cs",
+              "RelativeDocumentMoniker": "EducationalPlatform.API\\Controllers\\ArticlesController.cs",
+              "ToolTip": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.API\\Controllers\\ArticlesController.cs",
+              "RelativeToolTip": "EducationalPlatform.API\\Controllers\\ArticlesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T00:18:59.979Z",
+              "WhenOpened": "2025-08-09T00:45:18.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CourseVideoRepository.cs",
-              "DocumentMoniker": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Infrastructure\\Persistence\\Repositories\\CourseVideoRepository.cs",
-              "RelativeDocumentMoniker": "EducationalPlatform.Infrastructure\\Persistence\\Repositories\\CourseVideoRepository.cs",
-              "ToolTip": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Infrastructure\\Persistence\\Repositories\\CourseVideoRepository.cs",
-              "RelativeToolTip": "EducationalPlatform.Infrastructure\\Persistence\\Repositories\\CourseVideoRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowB8AAAA5AAAAAAAAAA==",
+              "Title": "ArticleRepository.cs",
+              "DocumentMoniker": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Infrastructure\\Persistence\\Repositories\\ArticleRepository.cs",
+              "RelativeDocumentMoniker": "EducationalPlatform.Infrastructure\\Persistence\\Repositories\\ArticleRepository.cs",
+              "ToolTip": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Infrastructure\\Persistence\\Repositories\\ArticleRepository.cs",
+              "RelativeToolTip": "EducationalPlatform.Infrastructure\\Persistence\\Repositories\\ArticleRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T00:18:39.265Z",
+              "WhenOpened": "2025-08-09T00:44:59.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetAllArticlesQueryHandler.cs",
+              "DocumentMoniker": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Application\\Features\\Articles\\Queries\\GetAllArticlesQueryHandler.cs",
+              "RelativeDocumentMoniker": "EducationalPlatform.Application\\Features\\Articles\\Queries\\GetAllArticlesQueryHandler.cs",
+              "ToolTip": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Application\\Features\\Articles\\Queries\\GetAllArticlesQueryHandler.cs",
+              "RelativeToolTip": "EducationalPlatform.Application\\Features\\Articles\\Queries\\GetAllArticlesQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T00:44:21.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateArticleDto.cs",
+              "DocumentMoniker": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Application\\DTOs\\Article\\CreateArticleDto.cs",
+              "RelativeDocumentMoniker": "EducationalPlatform.Application\\DTOs\\Article\\CreateArticleDto.cs",
+              "ToolTip": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Application\\DTOs\\Article\\CreateArticleDto.cs",
+              "RelativeToolTip": "EducationalPlatform.Application\\DTOs\\Article\\CreateArticleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T00:43:47.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArticleDto.cs",
+              "DocumentMoniker": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Application\\DTOs\\Article\\ArticleDto.cs",
+              "RelativeDocumentMoniker": "EducationalPlatform.Application\\DTOs\\Article\\ArticleDto.cs",
+              "ToolTip": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Application\\DTOs\\Article\\ArticleDto.cs",
+              "RelativeToolTip": "EducationalPlatform.Application\\DTOs\\Article\\ArticleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T00:43:43.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ICourseVideoRepository.cs",
-              "DocumentMoniker": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Application\\Interfaces\\ICourseVideoRepository.cs",
-              "RelativeDocumentMoniker": "EducationalPlatform.Application\\Interfaces\\ICourseVideoRepository.cs",
-              "ToolTip": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Application\\Interfaces\\ICourseVideoRepository.cs",
-              "RelativeToolTip": "EducationalPlatform.Application\\Interfaces\\ICourseVideoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Title": "Article.cs",
+              "DocumentMoniker": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Domain\\Entities\\Article.cs",
+              "RelativeDocumentMoniker": "EducationalPlatform.Domain\\Entities\\Article.cs",
+              "ToolTip": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Domain\\Entities\\Article.cs",
+              "RelativeToolTip": "EducationalPlatform.Domain\\Entities\\Article.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T00:18:16.346Z",
+              "WhenOpened": "2025-08-09T00:43:14.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateArticleCommandHandler.cs",
+              "DocumentMoniker": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Application\\Features\\Articles\\Commands\\CreateArticleCommandHandler.cs",
+              "RelativeDocumentMoniker": "EducationalPlatform.Application\\Features\\Articles\\Commands\\CreateArticleCommandHandler.cs",
+              "ToolTip": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Application\\Features\\Articles\\Commands\\CreateArticleCommandHandler.cs",
+              "RelativeToolTip": "EducationalPlatform.Application\\Features\\Articles\\Commands\\CreateArticleCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T00:30:22.3Z",
               "EditorCaption": ""
             }
           ]

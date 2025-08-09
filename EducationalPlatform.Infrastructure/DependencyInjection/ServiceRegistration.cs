@@ -20,7 +20,7 @@ namespace EducationalPlatform.Infrastructure.DependencyInjection
             //services.AddScoped<ICourseRepository, CourseRepository>();
             services.AddScoped<IBookRepository, BookRepository>();
             services.AddScoped<ICourseVideoRepository, CourseVideoRepository>();
-
+            services.AddScoped<IArticleRepository, ArticleRepository>();
 
 
             return services;

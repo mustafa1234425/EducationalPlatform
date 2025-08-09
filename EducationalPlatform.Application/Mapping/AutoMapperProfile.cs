@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using EducationalPlatform.Application.DTOs.Article;
 using EducationalPlatform.Application.DTOs.Course;
 using EducationalPlatform.Application.DTOs.Videos;
 using EducationalPlatform.Application.Features.Courses.Commands.CreateCourse;
@@ -15,7 +16,9 @@ namespace EducationalPlatform.Application.Mapping
            .ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.Name));
             CreateMap<CreateCourseDto, Course>();
             CreateMap<CourseVideo, CourseVideoDto>();
-            
+            CreateMap<Article, ArticleDto>()
+           .ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.Name));
+
 
 
         }

@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Web Development\\EducationalPlatform\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{120C3D23-E43D-4E87-926E-44D79419C5F1}|EducationalPlatform.Infrastructure\\EducationalPlatform.Infrastructure.csproj|e:\\web development\\educationalplatform\\educationalplatform.infrastructure\\dependencyinjection\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{120C3D23-E43D-4E87-926E-44D79419C5F1}|EducationalPlatform.Infrastructure\\EducationalPlatform.Infrastructure.csproj|solutionrelative:educationalplatform.infrastructure\\dependencyinjection\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E72572D2-87A0-4242-AD2E-E484DD6C35DB}|EducationalPlatform.Application\\EducationalPlatform.Application.csproj|e:\\web development\\educationalplatform\\educationalplatform.application\\features\\articles\\commands\\updatearticlecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E72572D2-87A0-4242-AD2E-E484DD6C35DB}|EducationalPlatform.Application\\EducationalPlatform.Application.csproj|solutionrelative:educationalplatform.application\\features\\articles\\commands\\updatearticlecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +31,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Infrastructure\\DependencyInjection\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "EducationalPlatform.Infrastructure\\DependencyInjection\\ServiceRegistration.cs",
+              "ToolTip": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Infrastructure\\DependencyInjection\\ServiceRegistration.cs",
+              "RelativeToolTip": "EducationalPlatform.Infrastructure\\DependencyInjection\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T00:47:05.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateArticleCommandHandler.cs",
+              "DocumentMoniker": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Application\\Features\\Articles\\Commands\\UpdateArticleCommandHandler.cs",
+              "RelativeDocumentMoniker": "EducationalPlatform.Application\\Features\\Articles\\Commands\\UpdateArticleCommandHandler.cs",
+              "ToolTip": "E:\\Web Development\\EducationalPlatform\\EducationalPlatform.Application\\Features\\Articles\\Commands\\UpdateArticleCommandHandler.cs",
+              "RelativeToolTip": "EducationalPlatform.Application\\Features\\Articles\\Commands\\UpdateArticleCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T00:46:25.52Z",
+              "EditorCaption": ""
             }
           ]
         }

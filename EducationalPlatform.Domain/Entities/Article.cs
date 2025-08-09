@@ -11,6 +11,7 @@ namespace EducationalPlatform.Domain.Entities
         public string? AuthorName { get; set; }
 
         public int CategoryId { get; set; }
+        public DateTime CreatedDate { get; set; }
 
         public Category Category { get; set; }
     }
