@@ -1,4 +1,4 @@
-﻿using EducationalPlatform.Application.DTOs.Course;
+﻿using EducationalPlatform.Application.DTOs.Videos;
 using MediatR;
 
 

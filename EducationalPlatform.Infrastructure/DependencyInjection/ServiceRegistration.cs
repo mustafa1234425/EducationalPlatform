@@ -17,8 +17,10 @@ namespace EducationalPlatform.Infrastructure.DependencyInjection
             // تسجيل الـ Repositories
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<ICourseRepository, CourseRepository>();
-            services.AddScoped<ICourseRepository, CourseRepository>();
+            //services.AddScoped<ICourseRepository, CourseRepository>();
             services.AddScoped<IBookRepository, BookRepository>();
+            services.AddScoped<ICourseVideoRepository, CourseVideoRepository>();
+
 
 
             return services;

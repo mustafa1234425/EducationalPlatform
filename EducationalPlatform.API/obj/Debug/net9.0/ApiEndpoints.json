@@ -117,43 +117,6 @@
   },
   {
     "ContainingType": "EducationalPlatform.API.Controllers.CoursesController",
-    "Method": "AddVideoToCourse",
-    "RelativePath": "api/Courses/{courseId}/videos",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "courseId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "dto",
-        "Type": "EducationalPlatform.Application.DTOs.Course.AddCourseVideoDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "EducationalPlatform.API.Controllers.CoursesController",
-    "Method": "GetVideosByCourseId",
-    "RelativePath": "api/Courses/{courseId}/videos",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "courseId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "EducationalPlatform.API.Controllers.CoursesController",
     "Method": "GetById",
     "RelativePath": "api/Courses/{id}",
     "HttpMethod": "GET",
@@ -199,6 +162,75 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EducationalPlatform.API.Controllers.CourseVideosController",
+    "Method": "Create",
+    "RelativePath": "api/CourseVideos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EducationalPlatform.Application.DTOs.Videos.CreateCourseVideoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EducationalPlatform.API.Controllers.CourseVideosController",
+    "Method": "Update",
+    "RelativePath": "api/CourseVideos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "EducationalPlatform.Application.DTOs.Videos.UpdateCourseVideoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EducationalPlatform.API.Controllers.CourseVideosController",
+    "Method": "Delete",
+    "RelativePath": "api/CourseVideos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EducationalPlatform.API.Controllers.CourseVideosController",
+    "Method": "GetByCourseId",
+    "RelativePath": "api/CourseVideos/course/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
         "Type": "System.Int32",
         "IsRequired": true
       }
