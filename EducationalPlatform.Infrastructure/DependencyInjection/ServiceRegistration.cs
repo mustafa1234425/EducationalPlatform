@@ -14,14 +14,13 @@ namespace EducationalPlatform.Infrastructure.DependencyInjection
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
-            // تسجيل الـ Repositories
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<ICourseRepository, CourseRepository>();
             //services.AddScoped<ICourseRepository, CourseRepository>();
             services.AddScoped<IBookRepository, BookRepository>();
             services.AddScoped<ICourseVideoRepository, CourseVideoRepository>();
             services.AddScoped<IArticleRepository, ArticleRepository>();
-
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
 
             return services;
         }
