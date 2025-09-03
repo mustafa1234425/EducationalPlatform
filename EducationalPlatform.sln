@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EducationalPlatform.Domain"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EducationalPlatform.Infrastructure", "EducationalPlatform.Infrastructure\EducationalPlatform.Infrastructure.csproj", "{120C3D23-E43D-4E87-926E-44D79419C5F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EducationalPlatform.Tests", "Tests\EducationalPlatform.Tests\EducationalPlatform.Tests.csproj", "{37FEF0BA-9426-44D5-82DC-0E0AFD962C91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,8 +71,23 @@ Global
 		{120C3D23-E43D-4E87-926E-44D79419C5F1}.Release|x64.Build.0 = Release|Any CPU
 		{120C3D23-E43D-4E87-926E-44D79419C5F1}.Release|x86.ActiveCfg = Release|Any CPU
 		{120C3D23-E43D-4E87-926E-44D79419C5F1}.Release|x86.Build.0 = Release|Any CPU
+		{37FEF0BA-9426-44D5-82DC-0E0AFD962C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FEF0BA-9426-44D5-82DC-0E0AFD962C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FEF0BA-9426-44D5-82DC-0E0AFD962C91}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{37FEF0BA-9426-44D5-82DC-0E0AFD962C91}.Debug|x64.Build.0 = Debug|Any CPU
+		{37FEF0BA-9426-44D5-82DC-0E0AFD962C91}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{37FEF0BA-9426-44D5-82DC-0E0AFD962C91}.Debug|x86.Build.0 = Debug|Any CPU
+		{37FEF0BA-9426-44D5-82DC-0E0AFD962C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FEF0BA-9426-44D5-82DC-0E0AFD962C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37FEF0BA-9426-44D5-82DC-0E0AFD962C91}.Release|x64.ActiveCfg = Release|Any CPU
+		{37FEF0BA-9426-44D5-82DC-0E0AFD962C91}.Release|x64.Build.0 = Release|Any CPU
+		{37FEF0BA-9426-44D5-82DC-0E0AFD962C91}.Release|x86.ActiveCfg = Release|Any CPU
+		{37FEF0BA-9426-44D5-82DC-0E0AFD962C91}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA63A798-DADD-4CEF-8D23-FD6A79113B77}
 	EndGlobalSection
 EndGlobal
